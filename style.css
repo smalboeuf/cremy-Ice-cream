@@ -111,7 +111,7 @@ body {
 }
 .iceCreamSamples p {
     text-align: center;
-    font-size: 0.85vw;
+    font-size: 1rem;
 }
 
 .frontTitle {
@@ -188,13 +188,13 @@ body {
 }
 
 .footer_logo span {
-    font-size: 0.75vw;
+    font-size: 0.90rem;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
-    font-size: 0.75vw;
+    font-size: 0.50;
 }
 
 .centered {
@@ -202,11 +202,5 @@ body {
     justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
-    .navigation_links {}
-    .iceCreamSamples p {
-        text-align: center;
-    }
-}
 
 /* color of main theme #2531E5*/
