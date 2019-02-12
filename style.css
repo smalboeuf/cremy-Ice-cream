@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    font-family: 'Bitter', serif;
+}
+
+.navigation_bar {
+    background: white;
+    margin: 0;
+    text-align: center;
+    min-height: 5rem;
+}
+.iconSize{
+    width: 65px;
+}
+.navigation_links {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+    margin-left: 30%;
+}
+.navbar-brand img{
+    width: 5rem;
+}
+.navigation_links li {
+    display: flex;
+    margin-top: 0px;
+}
+
+.navigation_links a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+.navigation_links a:hover {
+    color: #2531E5;
+}
+
+.logo_wrapper img {
+    width: 5rem;
+    position: absolute;
+    left: 0;
+    margin-left: 20%;
+}
+
+.navbar_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.mainPhoto{
+    width: 100%;
+    height: 53rem;
+    object-fit: cover;
+}
+.main {
+    display: flex;
+    max-height: 53rem;
+}
+
+.main img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slogan {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    top: 20rem;
+    font-size: 4vw;
+    width: 100%;
+    top: 40%;
+}
+
+.iceCreamSamples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.iceCreamSamples div {
+    padding: 1rem;
+}
+
+.iceCreamSamples img {
+    display: flex;
+    border-color: #2531E5;
+    width: 20rem;
+    object-fit: cover;
+    height: 20rem;
+    justify-content: center;
+    justify-items: center;
+    border-style: solid;
+    border-width: 1.5rem;
+}
+.jumbotron{
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+.iceCreamSamples p {
+    text-align: center;
+    font-size: 0.85vw;
+}
+
+.frontTitle {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.iceCreamSampleText {
+    justify-content: center;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    background-color: #2531E5;
+    height: 45rem;
+    
+}
+
+.reviews_title {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.review_gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+.review_blurb {
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    height: 20rem;
+    width: 15rem;
+    border-style: solid;
+    border-color: #2531E5;
+    border-width: 1rem;
+    padding: 1rem;  
+    margin-top: 1rem;
+}
+
+.portrait img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+}
+
+.footer_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo img {
+    justify-content: center;
+    width: 6rem;
+}
+
+.footer_logo span {
+    font-size: 0.75vw;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75vw;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation_links {}
+    .iceCreamSamples p {
+        text-align: center;
+    }
+}
+
+/* color of main theme #2531E5*/
